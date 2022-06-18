@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>UQA/Login/Logout</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Login/Logout</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.ultimateqa.com/automation/<datalist><option>https://www.ultimateqa.com/automation/</option></datalist></td><td>https://www.ultimateqa.com/automation/</td></tr>
+<tr><td>assertElementPresent</td><td>link=Login automation<datalist><option>link=Login automation</option></datalist></td><td></td></tr>
+<tr><td>clickAndWait</td><td>//a[contains(.,'Login automation')]<datalist><option>//a[contains(.,'Login automation')]</option></datalist></td><td></td></tr>
+<tr><td>assertElementPresent</td><td>id=user[email]<datalist><option>id=user_email</option><option>//*[@id="user[email]"]</option><option>id=user[email]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=user[email]<datalist><option>//*[@id="user[email]"]</option><option>id=user[email]</option></datalist></td><td>testeroprogramowania1@gmail.com</td></tr>
+<tr><td>verifyValue</td><td>id=user[email]<datalist><option>//*[@id="user[email]"]</option><option>id=user[email]</option></datalist></td><td>testeroprogramowania1@gmail.com</td></tr>
+<tr><td>assertElementPresent</td><td>id=user[password]<datalist><option>#user\[password\]</option><option>id="user[password]"</option><option>id=user[password]</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=user[password]<datalist><option>id=user[password]</option></datalist></td><td>oprogramowania</td></tr>
+<tr><td>verifyValue</td><td>id=user[password]<datalist><option>id=user[password]</option></datalist></td><td>oprogramowania</td></tr>
+<tr><td>pause</td><td><datalist></datalist></td><td>2000</td></tr>
+<tr><td>assertElementPresent</td><td>class=button button-primary g-recaptcha<datalist><option>clickAndWaitassertElementPresent</option><option>class=button button-primary g-recaptcha</option></datalist></td><td>value=Sign in</td></tr>
+<tr><td>clickAndWait</td><td>class=button button-primary g-recaptcha<datalist><option>class=button button-primary g-recaptcha</option></datalist></td><td></td></tr>
+<tr><td>assertElementPresent</td><td>class=header__mobile-button hidden-print<datalist><option>class="header__mobile-button hidden-print</option><option>class=header__mobile-button hidden-print</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>class=header__mobile-button hidden-print<datalist><option>class=header__mobile-button hidden-print</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=Sign Out<datalist><option>link=Sign Out</option><option>xpath=//a[contains(text(),'Sign Out')]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Support'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='My Dashboard'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='toggle menu'])[1]/preceding::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Menu'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='Sign Out']/parent::*</option><option>xpath=//a[contains(@href, '/users/sign_out')]</option><option>xpath=//li[4]/a</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>

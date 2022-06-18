@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCase>
+<selenese>
+	<command>open</command>
+	<target><![CDATA[https://www.ultimateqa.com/automation/]]></target>
+	<value><![CDATA[https://www.ultimateqa.com/automation/]]></value>
+</selenese>
+<selenese>
+	<command>assertElementPresent</command>
+	<target><![CDATA[link=Login automation]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>clickAndWait</command>
+	<target><![CDATA[//a[contains(.,'Login automation')]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>assertElementPresent</command>
+	<target><![CDATA[id=user[email]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=user[email]]]></target>
+	<value><![CDATA[testeroprogramowania1@gmail.com]]></value>
+</selenese>
+<selenese>
+	<command>verifyValue</command>
+	<target><![CDATA[id=user[email]]]></target>
+	<value><![CDATA[testeroprogramowania1@gmail.com]]></value>
+</selenese>
+<selenese>
+	<command>assertElementPresent</command>
+	<target><![CDATA[id=user[password]]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>type</command>
+	<target><![CDATA[id=user[password]]]></target>
+	<value><![CDATA[oprogramowania]]></value>
+</selenese>
+<selenese>
+	<command>verifyValue</command>
+	<target><![CDATA[id=user[password]]]></target>
+	<value><![CDATA[oprogramowania]]></value>
+</selenese>
+<selenese>
+	<command>pause</command>
+	<target><![CDATA[]]></target>
+	<value><![CDATA[2000]]></value>
+</selenese>
+<selenese>
+	<command>assertElementPresent</command>
+	<target><![CDATA[class=button button-primary g-recaptcha]]></target>
+	<value><![CDATA[value=Sign in]]></value>
+</selenese>
+<selenese>
+	<command>clickAndWait</command>
+	<target><![CDATA[class=button button-primary g-recaptcha]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>assertElementPresent</command>
+	<target><![CDATA[class=header__mobile-button hidden-print]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[class=header__mobile-button hidden-print]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+<selenese>
+	<command>click</command>
+	<target><![CDATA[link=Sign Out]]></target>
+	<value><![CDATA[]]></value>
+</selenese>
+</TestCase>
